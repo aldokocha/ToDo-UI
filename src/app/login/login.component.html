@@ -1,5 +1,5 @@
 <!-- Creating Login Page -->
-User Name : <input type = "text" name = "username" value = "{{username}}">
-Password : <input type = "password" name = "password" value = "{{password}}">
+User Name : <input type = "text" name = "username" [(ngModel)] = "username">
+Password : <input type = "password" name = "password" [(ngModel)] = "password">
 
 <button (click)=handleLogin()> login </button>
